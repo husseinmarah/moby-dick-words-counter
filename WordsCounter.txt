@@ -79,17 +79,18 @@ namespace WordsCounter
 			List<string> wordList = inputText.Split(' ').ToList();
 			
 			// Define and remove commonWords
+			/*
 			string[] commonWords = new string[] { "The","and", "the", "it", "for", "this", "but", "to", "on", "of", "\n" };
 			foreach (string word in commonWords)
 			{
 				// Here a wile loop to remove common words that maybe we don't want to show them in
 				// our list of words, "prepositions and stop words"
-				//while ( wordList.Contains(word) )
-				//{
-				//	wordList.Remove(word);
-				//}
+				while ( wordList.Contains(word) )
+				{
+					wordList.Remove(word);
+				}
 			}
-			
+			*/
 			// Create a new Dictionary object called "wordsRepository"
 			Dictionary<string, int> wordsRepository = new Dictionary<string, int>();
 			
