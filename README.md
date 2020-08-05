@@ -1,4 +1,4 @@
-# Moby-Dick-Words-Counter
+# Words Counter
 This file is a C# program to count the occurences of words in "Moby Dick" text book which download from the website "www.gutenberg.org".
 The program is written by using the IDE "SharpDevelop"
 
