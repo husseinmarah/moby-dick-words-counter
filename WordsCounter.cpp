@@ -69,7 +69,7 @@ namespace WordsCounter
 			
 			// Characters to remove from the input text
 			string[] removeChars = {"0", "1", "2", "3", "4", "5", "6", "7", "8", "9",
-			"ì","î","!","?",":",";", ",", ".", "-", "_", "^", "(", ")", "[", "]","\"", "\n", "\t", "\r"};			
+			"‚Äú","‚Äù","!","?",":",";", ",", ".", "-", "_", "^", "(", ")", "[", "]","\"", "\n", "\t", "\r"};			
 			foreach (string character in removeChars)
 			{
 				inputText = inputText.Replace(character, " ");
